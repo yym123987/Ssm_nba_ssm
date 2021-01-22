@@ -1,0 +1,4 @@
+# Project exclude paths
+/cqupt_nba/target/
+/FileuploadServer/target/
+/target/

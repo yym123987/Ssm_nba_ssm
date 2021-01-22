@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function fun1() {
+            alert('无敌嗨皮怪！');
+        }
+        fun1();
+        function fun2(a,b) {
+            alert("a的值为:"+a);
+            alert('b的值为:'+b);
+            alert(arguments[0]);
+            alert(arguments[1]);
+            for (var i = 0; i <arguments.length ; i++) {
+                alert(arguments[i]);
+            }
+        }
+        fun2(23,6);
+        function sum(num1,num2) {
+            var result=0;
+            for (var i = 0; i <arguments.length ; i++) {
+                result+=arguments[i];
+            }
+            return result;
+        }
+        alert(sum(23,6,3,24));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
